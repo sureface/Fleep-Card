@@ -10,5 +10,46 @@
 }
 
 .wrapper {
-    padding: 10px 22px;
+    padding: 28px 22px;
+}
+.fleet_card {
+    width: 100%;
+    background: var(--white);
+    border: 1px solid var(--light-gray);
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fleet_card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.fleet_card__status {
+    width: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+.fleet_card__status img {
+    display: none;
+}
+.fleet_card__status .show-status {
+    display: inline-block;
+}
+.fleet_card__title {
+    font-size: 0.875rem;
+    margin-right: 3px;
 }
