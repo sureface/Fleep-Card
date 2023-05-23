@@ -147,6 +147,10 @@
     font-size: 0.75rem;
     color: var(--dark-gray);
 }
+.no_location__sharing {
+    font-size: 0.75rem;
+    color: var(--orange);
+}
 .location_status {
     font-size: 0.75rem;
     color: var(--green);
@@ -157,4 +161,12 @@
     margin-left: 29px;
     margin-top: 5px;
     color: var(--dark-blue);
+}
+.location_time {
+    font-size: 0.75rem;
+    color: var(--dark-gray);
+    margin-right: 11px;
+}
+.no_location__status {
+    margin-right: 11px;
 }
